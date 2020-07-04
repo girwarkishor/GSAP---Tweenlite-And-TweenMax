@@ -61,3 +61,5 @@ A **Tween** can animate multiple objects with staggered start times.
 gsap.to(".star", {stagger: 1, x: 750, rotation: 360, fill: "yellow", duration: 3});
 ```  
   
+###Timeline  
+A **Timeline** is a container for multiple tweens.  
