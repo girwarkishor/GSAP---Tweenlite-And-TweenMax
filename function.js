@@ -43,5 +43,41 @@
 // gsap.to(".green", { duration: 3, x: 600, ease: "back" }); // Ease back
 // gsap.to(".pink", { duration: 3, x: 600, ease: "linear" }); // Ease Linear
 
-gsap.to(".green", { duration: 3, x: 600, ease: "back(6)" }); // Ease back run little fast
-gsap.to(".pink", { duration: 3, x: 600, ease: "linear" }); // Ease Linear
+// gsap.to(".green", { duration: 3, x: 600, ease: "back(6)" }); // Ease back run little fast
+// gsap.to(".pink", { duration: 3, x: 600, ease: "linear" }); // Ease Linear
+
+// gsap.to("#freds img", { y: -100, stagger: 0.1 });
+// gsap.to("#freds img", {
+//   y: -100,
+//   stagger: {
+//     each: 0.2,
+//   },
+// }); // each have 0.2s
+
+// gsap.to("#freds img", {
+//   y: -100,
+//   stagger: {
+//     amount: 1,
+//   },
+// }); // all sharing 1s
+// gsap.to("#freds img", {
+//   y: -100,
+//   stagger: {
+//     each: 0.2,
+//     from: "end",
+//   },
+// }); // starting from end
+// gsap.to("#freds img", {
+//   y: -100,
+//   stagger: {
+//     each: 0.2,
+//     from: "center",
+//   },
+// }); // starting from center
+gsap.to("#freds img", {
+  y: -100,
+  stagger: {
+    amount: 0.2,
+    from: "edges",
+  },
+}); // starting from center
