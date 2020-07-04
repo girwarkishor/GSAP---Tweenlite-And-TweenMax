@@ -26,4 +26,12 @@ and much more...
   
 ## Extras/Plugins  
 **A veriety of plugins can be added to these 4 tools to add extra features.**  
+   
+# GSAP 3  
   
+In GSAP 3 TweenLite, TweenMax, TimeLineLite, TimeLineMax is replaced by gsap object.  
+The gsap object is your access point to everything the engine does.  
+- Create animations  
+- Configure settings
+- Register plugins, eases, and effects  
+- Global control over all animations  
