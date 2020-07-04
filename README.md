@@ -1,7 +1,7 @@
-## GSAP  
-# GreenSock Animation Platform  
+# GSAP  
+## GreenSock Animation Platform  
   
-# Why GSAP?  
+## Why GSAP?  
 Fast & Performant  
 tons of features  
 compatible with older browsers  
