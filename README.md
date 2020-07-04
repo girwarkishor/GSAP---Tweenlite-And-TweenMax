@@ -61,5 +61,24 @@ A **Tween** can animate multiple objects with staggered start times.
 gsap.to(".star", {stagger: 1, x: 750, rotation: 360, fill: "yellow", duration: 3});
 ```  
   
-###Timeline  
+##Timeline  
 A **Timeline** is a container for multiple tweens.  
+  
+## Basic Tween  
+GSAP's default duration is 0.5 seconds (500ms)  
+```
+gsap.defaults({duration: 1});
+```
+  
+For best performance animate CSS Transforms and opacity.  
+- x and y  
+- rotation, rotationX, rotationY (gsap is great at 3D)
+- scaleX, scaleY, or just scale
+- skewX, skewY  
+  
+**GSAP can animate any numeric property**
+- width and height
+- top and left (make sure position is set to relative, fixed, or absolute)
+- borderRadius *hyphenated css properties must be camelCase
+- color / backgroundColor
+- vh vw and much much more...  
