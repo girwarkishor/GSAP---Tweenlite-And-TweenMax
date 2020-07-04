@@ -35,3 +35,8 @@ The gsap object is your access point to everything the engine does.
 - Configure settings
 - Register plugins, eases, and effects  
 - Global control over all animations  
+  
+The **GSAP** object has 3 main methods for creating Tweens and optionally adding them to Timelines.  
+1. gsap.to()  
+2. gsap.from()  
+3. gsap.fromTo()  
