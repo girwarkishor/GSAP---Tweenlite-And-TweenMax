@@ -40,3 +40,8 @@ The **GSAP** object has 3 main methods for creating Tweens and optionally adding
 1. gsap.to()  
 2. gsap.from()  
 3. gsap.fromTo()  
+  
+A **Tween** can change a single property of a single object over time.  
+```
+gsap.to(".star", {x: 750, duration: 3});
+```  
