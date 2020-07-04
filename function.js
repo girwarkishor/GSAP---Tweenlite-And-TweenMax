@@ -25,5 +25,23 @@
 // gsap.to(".green", { duration: 2, x: 600, repeat: 1, yoyo: true }); // yoyo
 // gsap.to(".pink", { duration: 2, x: 600 });
 
-gsap.to(".green", { duration: 2, x: 600, repeat: -1, yoyo: true }); // repeat: -1; repeat for ever
-gsap.to(".pink", { duration: 2, x: 600 });
+// gsap.to(".green", { duration: 2, x: 600, repeat: -1, yoyo: true }); // repeat: -1; repeat for ever
+// gsap.to(".pink", { duration: 2, x: 600 });
+
+// gsap.to(".green", { duration: 3, x: 600, ease: "bounce" }); // Ease Bounce
+// gsap.to(".pink", { duration: 3, x: 600, ease: "linear" }); // Ease Linear
+
+// gsap.to(".green", { duration: 3, x: 600, ease: "bounce.in" }); // Ease Bounce.in start at begining
+// gsap.to(".pink", { duration: 3, x: 600, ease: "linear" }); // Ease Linear
+
+// gsap.to(".green", { duration: 3, x: 600, ease: "bounce.inOut" }); // Ease Bounce.inOut start at begining and end in last
+// gsap.to(".pink", { duration: 3, x: 600, ease: "linear" }); // Ease Linear
+
+// gsap.to(".green", { duration: 3, x: 600, ease: "elastic" }); // Ease elastic
+// gsap.to(".pink", { duration: 3, x: 600, ease: "linear" }); // Ease Linear
+
+// gsap.to(".green", { duration: 3, x: 600, ease: "back" }); // Ease back
+// gsap.to(".pink", { duration: 3, x: 600, ease: "linear" }); // Ease Linear
+
+gsap.to(".green", { duration: 3, x: 600, ease: "back(6)" }); // Ease back run little fast
+gsap.to(".pink", { duration: 3, x: 600, ease: "linear" }); // Ease Linear
