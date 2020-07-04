@@ -45,3 +45,19 @@ A **Tween** can change a single property of a single object over time.
 ```
 gsap.to(".star", {x: 750, duration: 3});
 ```  
+  
+A **Tween** can change multiple properties of a single object over time.  
+```
+gsap.to(".star", {x: 750, scale: 2, rotation: 360, fill: "yellow", duration: 3});
+```  
+  
+A **Tween** can change multiple properties of multiple objects over time.  
+```
+gsap.to(".star", {x: 750, rotation: 360, fill: "yellow", duration: 3});
+```  
+  
+A **Tween** can animate multiple objects with staggered start times.  
+```
+gsap.to(".star", {stagger: 1, x: 750, rotation: 360, fill: "yellow", duration: 3});
+```  
+  
