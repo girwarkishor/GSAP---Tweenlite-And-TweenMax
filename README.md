@@ -95,5 +95,4 @@ document.getElementById("play").onclick = () => tween.play(); //Play is the meth
 document.getElementById("pause").onclick = () => tween.pause(); //Play is the method of tween
 document.getElementById("reverse").onclick = () => tween.reverse(); //Play is the method of tween
 document.getElementById("restart").onclick = () => tween.restart(); //Play is the method of tween
-
 ```
