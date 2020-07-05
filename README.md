@@ -82,3 +82,18 @@ For best performance animate CSS Transforms and opacity.
 - borderRadius *hyphenated css properties must be camelCase
 - color / backgroundColor
 - vh vw and much much more...  
+  
+```
+var tween = gsap.to(".green", {
+  duration: 3,
+  x: 600,
+  ease: "linear",
+  paused: true,
+});
+
+document.getElementById("play").onclick = () => tween.play(); //Play is the method of tween
+document.getElementById("pause").onclick = () => tween.pause(); //Play is the method of tween
+document.getElementById("reverse").onclick = () => tween.reverse(); //Play is the method of tween
+document.getElementById("restart").onclick = () => tween.restart(); //Play is the method of tween
+
+```
