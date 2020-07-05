@@ -91,8 +91,8 @@ var tween = gsap.to(".green", {
   paused: true,
 });
 
-document.getElementById("play").onclick = () => tween.play(); //Play is the method of tween
-document.getElementById("pause").onclick = () => tween.pause(); //Play is the method of tween
-document.getElementById("reverse").onclick = () => tween.reverse(); //Play is the method of tween
-document.getElementById("restart").onclick = () => tween.restart(); //Play is the method of tween
+document.getElementById("play").onclick = () => tween.play();
+document.getElementById("pause").onclick = () => tween.pause();
+document.getElementById("reverse").onclick = () => tween.reverse();
+document.getElementById("restart").onclick = () => tween.restart();
 ```
